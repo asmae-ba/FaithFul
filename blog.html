@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FaithFul.Net</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+      <link rel="stylesheet" href="home.css">
+      <link rel="stylesheet" href="css/styles.css">
+      
+      <link rel="icon" href="lune.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="headerblog">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p><img src="1-removebg-previewr.png" alt=""></p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="link ">Home</a></li>
+                    <li><a href="blog.html" class="link active">Articles</a></li>
+                    <li><a href="chairity.html" class="link">Charity</a></li>
+                    <li><a href="Courses.html" class="link">courses</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="window.location.href='login.html';">Sign In</button>
+                <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <div class="info" id="justthis">
+            <p> <u onclick="window.location.href='login.html';" style="cursor: pointer;">sign up</u> now to get notifacated with our lastet blogs</p>
+        </div>
+    </section>
+    <h1 >articles</h1>
+    <section class="container-diff">
+        <div class="card__container swiper">
+           <div class="card__content">
+              <div class="swiper-wrapper">
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="iftar.jpg" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Fasting children and the role of the parents</h3>
+                       <p class="card__description">
+                        The practice and spirit of fasting should be engrained
+                         in children so that it comes natural and effortless 
+                        for them as they reach adulthood.
+                       </p>
+     
+                       <a href="fasting.html" class="card__button">Read More</a>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="justice.jpg" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Justice: Islam’s ultimate value</h3>
+                       <p class="card__description">
+                        In one of the 100 or so verses which deal with
+                         theessentials of justice and fairness,
+                         the Quran tells us of this perversion of justice...
+                       </p>
+     
+                       <a href="justice.html" class="card__button">Read More</a>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="confused-bearded-man-shouting-standing-blackboard-backgro.jpg" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">HOW TO THINK?</h3>
+                       <p class="card__description">
+                        Thinking is a complex intellectual process that is
+                        too difficult to be defined,
+                         as difficult as its hidden content, even though it can
+                         be said ...
+                       </p>
+     
+                       <a href="think.html" class="card__button">Read More</a>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="IslamPrayer-58a773175f9b58a3c9ae812e.jpg" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Prayer in Islam</h3>
+                       <p class="card__description">
+                        The religion of Islam and the Muslims feature prominently 
+                        in the media nowadays; unfortunately, 
+                        they are often depicted as fanatical or 
+                        extreme for simply following... 
+                       </p>
+     
+                       <a href="prayer.html" class="card__button">Read More</a>
+                    </div>
+                 </article>
+
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="korannn.jpg" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Warning against Shirk in the Noble Quran</h3>
+                       <p class="card__description">
+                        Due to the severity of Shirk, many Quranic verses warn
+                         against it in different ways, starting from showing its 
+                        severity and... 
+                       </p>
+     
+                       <a href="quorran.html" class="card__button">Read More</a>
+                    </div>
+                 </article>
+              </div>
+           </div>
+
+           <!-- Navigation buttons -->
+           <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+           </div>
+           
+           <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+           </div>
+
+           <!-- Pagination -->
+           <div class="swiper-pagination" id="helpme"></div>
+        </div>
+     </section>
+
+<div class="help">
+    <div class="top">
+        <h1>contact us </h1>
+    </div>
+    <p>
+     The purpose of this form is to invite 
+     users who are interested in sharing their 
+      Islamic articles. It asks for basic information,
+      such as your name, email, and a brief idea of your article.
+     By filling out this form, you can submit your article ideas,
+     and we will reach out to you to discuss them further and help
+         bring your insights to our platform.</p>
+</div>
+
+
+    <section class="contact-info">
+
+      <div class="container-contact">
+       
+      
+        <div class="row-contact">
+            <div class="login-form">
+
+             <header>FAITHFUL</header>
+             <div class="two-forms">
+             <div required class="input-box">
+                <input required type="text" class="input-field" placeholder="First name">
+                <i class="bx bx-user"></i>
+            </div>
+            <div required class="input-box">
+                <input  required type="text" class="input-field" placeholder="Last name">
+                <i class="bx bx-user"></i>
+            </div>
+            </div>
+            <div required class="input-box">
+                <input required type="text" class="input-field" placeholder="title of the article">
+                <i class="fa fa-book" aria-hidden="true"></i>
+            </div>
+             <div required class="input-box">
+                <input required type="email" class="input-field" placeholder="Emailexample@gmail.com">
+                <i class="bx bx-envelope"></i>
+            </div>
+            <div required class="input-box">
+                <textarea type="text" class="input-field" id="article-contact" name="text" aria-placeholder="gug" onclick="document.getElementById('article-contact').innerHTML=' '" onmouseout="document.getElementById('article-contact').innerHTML='  Please provide a brief overview of your articleThis summary will help us understand the main points and topics you intend to cover,allowing us to better assess and guide your submission...'" >
+
+    Please provide a brief overview of your articleThis summary will help us understand the main points and topics you intend to cover,allowing us to better assess and guide your submission...
+                </textarea>
+            </div>
+            
+
+            <div required class="input-box">
+                <input required type="submit" class="submit" value=" Send ">
+            </div>
+          
+            </div>
+          
+            <div class="design">
+                <div class="box b1"><img src="1650540792_236158.jpg"> </div>
+                <div class="box b2"> <p>share <br> your <br>article </p></div>
+                <div class="box b3"><p>share <br> your <br>thoughts</p> </div>
+                <div class="box b4"> <img src="koran.jpg" ></div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+           
+            <div class="content social-media">
+                <img src="1-removebg-previewr.png" alt="Logo">
+                <p>Join us in <br> social media</p>
+                <div class="social-media">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                    <span><i class="fab fa-instagram" id="inst"></i></span>
+                    <span> <i class="fab fa-whatsapp" id="wtsp" onclick="window.location.href='https://api.whatsapp.com/channel/0029Va8B3ZrGZNCsV5NRNt3p';"></i></span>
+                </div>
+            </div>
+            <div class="content links">
+                
+                    <h3>quick-links</h3>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Articles</a></li>
+                    <li><a href="chairity.html">Charity</a></li>
+                    <li><a href="Courses.html">Courses</a></li>
+                </ul>
+            </div>
+            <div class="content contact">
+            
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><p>Email: contact@faithful.net</p></li>
+                    <li><p>Phone: +212-68 986 77</p></li>
+                    <li><p>Address: FaithFul Center, Meknes, MOROCCO</p></li>
+                </ul>
+            
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 FaithFul.Net. All rights reserved.</p>
+    </section>
+
+
+     <script src="js/swiper-bundle.min.js"></script>
+
+  
+     <script src="js/main.js"></script>
+</body>
+</html>
