@@ -294,7 +294,7 @@ margin-bottom: 20px;
 /*===1part===*/
 
 .first{
-    background:  linear-gradient(to top, rgba(20, 20, 78, 0.847), #c6c2c2c5) ,url(IMG_20240825_204502.jpg);
+    background:  linear-gradient(to top, rgba(20, 20, 78, 0.847), #c6c2c2c5) ,url('IMG_20240825_204502.jpg');
     height: 70vh;
     width: 100%;
    display: block;
