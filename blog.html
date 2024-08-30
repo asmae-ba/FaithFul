@@ -265,5 +265,33 @@
 
   
      <script src="main.js"></script>
+     <script>
+    
+    var name = document.getElementById("name").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        var titre =document.getElementById("titre-article").value;
+        var message = document.getElementById("article-contact").value;
+
+function send() {
+    var name = document.getElementById("name").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        var titre =document.getElementById("titre-article").value;
+        var message = document.getElementById("article-contact").value;
+    
+        if(name && lname && email && titre) {
+            
+            alert("Form Submitted!\n\n" +
+                  "Name: " + name + "\n" +
+                  "Lname: " + lname + "\n"+
+                  "Email: " + email + "\n" +
+                  "Title: " + titre);
+        } else {
+            
+            alert("Please fill in all the fields before submitting the form.");
+        }
+    }
+    </script>
 </body>
 </html>
