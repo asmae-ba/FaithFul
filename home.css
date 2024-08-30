@@ -85,8 +85,8 @@
 .articles-pages{
     display: flex;
     flex-direction: column;
-    background-color: #c7c58af1;
-
+    background-image: linear-gradient(rgba(100, 100, 93, 0.37),rgba(128, 128, 125, 0.37)),url('1117199-free-islamic-wallpapers-hd-2018-1920x1200.jpg');
+    backdrop-filter: blur(2px);
     padding-bottom: 0;
     position: relative;
     height: inherit;
