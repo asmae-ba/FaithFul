@@ -145,14 +145,14 @@ nav img{
         top: 100px;
     }
     .nav-menu{
-        position: absolute;
+    position: absolute;
         top: -900px;
         display: flex;
         justify-content: center;
-        background: rgba(190, 173, 15, 0.626);
+        background: transparent;
         width: 84%;
         height: 90vh;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(30px);
         transition: .3s;
     }
     .nav-menu ul{
