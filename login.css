@@ -192,13 +192,13 @@ header{
     }
     .nav-menu{
         position: absolute;
-        top: -700px;
+        top: -900px;
         display: flex;
         justify-content: center;
-        background: rgba(141, 151, 11, 0.849);
+        background: transparent;
         width: 84%;
         height: 90vh;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(30px);
         transition: .3s;
     }
     .nav-menu ul{
