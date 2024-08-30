@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
 
-      <link rel="stylesheet" href="swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
       <link rel="stylesheet" href="home.css">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/styles.css">
       
       <link rel="icon" href="lune.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -178,29 +178,29 @@
        
       
         <div class="row-contact">
-            <div class="login-form">
+            <div class="login-form" id="contact-form">
 
              <header>FAITHFUL</header>
              <div class="two-forms">
              <div required class="input-box">
-                <input required type="text" class="input-field" placeholder="First name">
+                <input required type="text" class="input-field" id="name" placeholder="First name">
                 <i class="bx bx-user"></i>
             </div>
             <div required class="input-box">
-                <input  required type="text" class="input-field" placeholder="Last name">
+                <input  required type="text" class="input-field" id="lname" placeholder="Last name">
                 <i class="bx bx-user"></i>
             </div>
             </div>
             <div required class="input-box">
-                <input required type="text" class="input-field" placeholder="title of the article">
+                <input required type="text" class="input-field" id="titre-article" placeholder="title of the article">
                 <i class="fa fa-book" aria-hidden="true"></i>
             </div>
              <div required class="input-box">
-                <input required type="email" class="input-field" placeholder="Emailexample@gmail.com">
+                <input required type="email" class="input-field" id="email" placeholder="Emailexample@gmail.com">
                 <i class="bx bx-envelope"></i>
             </div>
             <div required class="input-box">
-                <textarea type="text" class="input-field" id="article-contact" name="text" aria-placeholder="gug" onclick="document.getElementById('article-contact').innerHTML=' '" onmouseout="document.getElementById('article-contact').innerHTML='  Please provide a brief overview of your articleThis summary will help us understand the main points and topics you intend to cover,allowing us to better assess and guide your submission...'" >
+                <textarea type="text" class="input-field" id="article-contact" name="text" aria-placeholder="gug" onclick="document.getElementById('article-contact').innerHTML=' '" onmouseout="document.getElementById('article-contact').innerHTML='  Please provide a brief overview of your articleThis summary will help us understand the main points and topics you intend to cover,allowing us to better assess and guide your submission...'" required >
 
     Please provide a brief overview of your articleThis summary will help us understand the main points and topics you intend to cover,allowing us to better assess and guide your submission...
                 </textarea>
@@ -261,10 +261,10 @@
     </section>
 
 
-     <script src="swiper-bundle.min.js"></script>
+     <script src="js/swiper-bundle.min.js"></script>
 
   
-     <script src="main.js"></script>
+     <script src="js/main.js"></script>
      <script>
     
     var name = document.getElementById("name").value;
